@@ -17,7 +17,6 @@ exports.SendEmail = async(nome, email, mensagem) =>  {
         let message = {
             from: '',
             to: '',
-            //to: '',
             subject: nome,
             text: `Email: ${email}, Mensagem: ${mensagem}`,
         }
